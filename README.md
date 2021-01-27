@@ -1,16 +1,13 @@
-# New Project
+# Vizbin
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> A pile of visualizations using React, D3, and other viz libraries
 
 ## Available Scripts
 
 ### npm start
 
-Runs the app in the development mode.
+Runs the app in the development mode with hot reload and linting errors.
 Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
 
 ### npm run build
 
