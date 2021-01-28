@@ -6,6 +6,7 @@ import Navigate from "./components/navigate"
 import Home from "./components/home"
 import Visx from "./components/visx"
 import StackedArea from "./components/victory"
+import { ZoomPan } from "./components/zoompan"
 
 function App() {
   // Create the count state.
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/visx" element={<Visx />} />
         <Route path="/victory" element={<StackedArea />} />
+        <Route path="/zoompan" element={<ZoomPan />} />
       </Routes>
     </div>
   );

@@ -6,6 +6,7 @@ export default function Navigate(props) {
         <nav>
             <Link to="/visx">VisX</Link>
             <Link to="/victory">Victory</Link>
+            <Link to="/zoompan">ZoomPan</Link>
         </nav>
     )
 }
