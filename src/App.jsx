@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, Link } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
+import Navigate from "./components/navigate"
+import Home from "./components/home"
+import Visx from "./components/visx"
 
 function App() {
   // Create the count state.
@@ -14,24 +18,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <div className="logo-box">
+          <code>{count}</code>
+          <Link to="/" style={{width: '50px'}}>
+            <img src={logo} className="App-logo" alt="logo" />
+          </Link>
+        </div>
+        <Navigate />
       </header>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/visx" element={<Visx />} />
+      </Routes>
     </div>
   );
 }
