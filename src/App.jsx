@@ -5,6 +5,7 @@ import './App.css';
 import Navigate from "./components/navigate"
 import Home from "./components/home"
 import Visx from "./components/visx"
+import StackedArea from "./components/victory"
 
 function App() {
   // Create the count state.
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/visx" element={<Visx />} />
+        <Route path="/victory" element={<StackedArea />} />
       </Routes>
     </div>
   );
