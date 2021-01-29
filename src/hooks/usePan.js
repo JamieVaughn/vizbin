@@ -11,6 +11,7 @@ import {
    */
   export default function usePan() {
     const [panState, setPanState] = useState(ORIGIN)
+    const [deltas, setDeltas] = useState({x: 0, y: 0})
     // Track the last observed mouse position on pan.
     const lastPointRef = useRef(ORIGIN)
     const pan = useCallback((e) => {
@@ -27,6 +28,7 @@ import {
           x: lastPoint.x - point.x,
           y: lastPoint.y - point.y
         }
+        setDeltas(delta)
         const offset = {
           x: panState.x + delta.x,
           y: panState.y + delta.y
@@ -48,5 +50,5 @@ import {
       },
       [pan, endPan]
     )
-    return [panState, startPan]
+    return [panState, startPan, deltas]
   }

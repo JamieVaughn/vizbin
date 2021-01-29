@@ -2,9 +2,9 @@
 
 > A pile of visualizations using React, D3, and other viz libraries
 
-[  ] [D3](https://d3js.org/)
-[ x ] [VisX](https://airbnb.io/visx)
-[ x ] [Victory](https://formidable.com/open-source/victory/gallery/)
+- [ ] [D3](https://d3js.org/)
+- [x] [VisX](https://airbnb.io/visx)
+- [x] [Victory](https://formidable.com/open-source/victory/gallery/)
 
 ## Available Scripts
 

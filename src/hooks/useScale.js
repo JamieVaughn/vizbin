@@ -1,30 +1,27 @@
 import {useState} from 'react'
 import useEventListener from './useEventListener'
+import useMousePosition from './useMousePosition'
 
-const MIN_SCALE = 0.5
-const MAX_SCALE = 3
+const MIN_SCALE = 0.2
+const MAX_SCALE = 10
 /**
  * Listen for `wheel` events on the given element ref and update the reported
  * scale state, accordingly.
  */
+const reducer = {
+    up: (prev, next) => Math.min(prev+next, MAX_SCALE),
+    down: (prev, next) => Math.max(prev-next, MIN_SCALE)
+}
+
 export default function useScale(ref) {
   const [scale, setScale] = useState(1)
-  const updateScale = ({direction, interval}) => {
-    setScale(currentScale => {
-      let scale
-      // Adjust up to or down to the maximum or minimum scale levels by `interval`.
-      if (direction === 'up' && currentScale + interval < MAX_SCALE) {
-        scale = currentScale + interval
-      } else if (direction === 'up') {
-        scale = MAX_SCALE
-      } else if (direction === 'down' && currentScale - interval > MIN_SCALE) {
-        scale = currentScale - interval
-      } else if (direction === 'down') {
-        scale = MIN_SCALE
-      } else {
-        scale = currentScale
-      }
-      return scale
+  const [oldScale, setOldScale] = useState(1)
+  const mousePos = useMousePosition(ref.current)
+  const updateScale = ({direction, delta}) => {
+    // Adjust up to or down to the maximum or minimum scale levels by `delta`.
+    setScale(prevScale => {
+        setOldScale(prevScale)
+        reducer[direction](prevScale, delta) ?? prevScale
     })
   }
   // Set up an event listener such that on `wheel`, we call `updateScale`.
@@ -32,13 +29,14 @@ export default function useScale(ref) {
     'wheel',
     e => {
       e.preventDefault()
+      let dial = !e.ctrlKey ? 0.1 : 0.1*scale
       updateScale({
         direction: e.deltaY > 0 ? 'up' : 'down',
-        interval: 0.1
+        delta: dial
       })
     },
     ref.current,
     {passive: false}
   )
-  return scale
+  return [scale, mousePos, oldScale]
 }
