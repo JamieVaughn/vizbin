@@ -44,7 +44,7 @@ export const ZoomPan = () => {
     const [offset, startPan, deltas] = usePan()
     const [scale, mousePos] = useScale(ref)
     const [adjust, setAdjust] = useState({x: 0, y: 0})
-    const [hasPan, setHasPan] = useState(false)
+    const [isPanning, setIsPanning] = useState(false)
     useLayoutEffect(() => {
         const height = ref.current?.clientHeight ?? 0
         const width = ref.current?.clientWidth ?? 0
@@ -60,14 +60,14 @@ export const ZoomPan = () => {
         })
       }, [scale, setInset])
 
-    useEventListener('mousedown', () => setHasPan(true), ref.current)
-    useEventListener('mouseup', () => setHasPan(false), ref.current)
+    useEventListener('mousedown', () => setIsPanning(true), ref.current)
+    useEventListener('mouseup', () => setIsPanning(false), ref.current)
 
     return (
       <div onMouseDown={startPan} style={{...styles, ...cursor}} ref={ref}>
         <div style={{
             position: 'absolute',
-            transition: `transform .25s${hasPan ? '' : ', background-position .25s'}`,
+            transition: `transform .25s${isPanning ? '' : ', background-position .25s'}`,
             inset: `${inset.y}px ${inset.x}px`, // shorthand for top, bottom, left, right
             backgroundImage: 'url("/grid.svg")', 
             transform: `scale(${scale})`, 

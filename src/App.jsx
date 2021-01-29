@@ -6,6 +6,8 @@ import Navigate from "./components/navigate"
 import Home from "./components/home"
 import Visx from "./components/visx"
 import StackedArea from "./components/victory"
+import LineRecharts from "./components/recharts"
+import PieReactVis from "./components/reactvis"
 import { ZoomPan } from "./components/zoompan"
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/visx" element={<Visx />} />
         <Route path="/victory" element={<StackedArea />} />
+        <Route path="/recharts" element={<LineRecharts />} />
+        <Route path="/reactvis" element={<PieReactVis />} />
         <Route path="/zoompan" element={<ZoomPan />} />
       </Routes>
     </div>

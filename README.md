@@ -3,8 +3,21 @@
 > A pile of visualizations using React, D3, and other viz libraries
 
 - [ ] [D3](https://d3js.org/)
-- [x] [VisX](https://airbnb.io/visx)
-- [x] [Victory](https://formidable.com/open-source/victory/gallery/)
+- [ ] [Vega](https://vega.github.io/vega/)
+- [ ] [Vega-Lite](https://vega.github.io/vega-lite/)
+- [x] [Stacked Bars](https://wjv.io/vizbin/visx) with[VisX](https://airbnb.io/visx/gallery)
+- [x] [Stacked Area](https://wjv.io/vizbin/victory) with [Victory](https://formidable.com/open-source/victory/gallery/)
+- [x] [Line Chart](https://wjv.io/vizbin/recharts) with[Recharts](http://recharts.org/en-US/examples)
+- [x] [Pie Chart](https://wjv.io/vizbin/reactvis) with [React-Vis](https://uber.github.io/react-vis/)
+- [x] [Custom Zoom/Pan](https://wjv.io/vizbin/zoompan)
+
+
+> WebGL experiments
+
+- [ ] [Vis.gl](https://vis.gl/) https://github.com/visgl
+- [ ] [Kepler.gl](https://kepler.gl/) https://luma.gl/
+- [ ] [Luma.gl](https://luma.gl/) https://github.com/Netflix/vizceral
+- [ ] [Vizceral](https://github.com/Netflix/vizceral)
 
 ## Available Scripts
 

@@ -15,14 +15,10 @@ const reducer = {
 
 export default function useScale(ref) {
   const [scale, setScale] = useState(1)
-  const [oldScale, setOldScale] = useState(1)
   const mousePos = useMousePosition(ref.current)
   const updateScale = ({direction, delta}) => {
     // Adjust up to or down to the maximum or minimum scale levels by `delta`.
-    setScale(prevScale => {
-        setOldScale(prevScale)
-        reducer[direction](prevScale, delta) ?? prevScale
-    })
+    setScale(prevScale => reducer[direction](prevScale, delta) ?? prevScale)
   }
   // Set up an event listener such that on `wheel`, we call `updateScale`.
   useEventListener(
@@ -38,5 +34,5 @@ export default function useScale(ref) {
     ref.current,
     {passive: false}
   )
-  return [scale, mousePos, oldScale]
+  return [scale, mousePos]
 }

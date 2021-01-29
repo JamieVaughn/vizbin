@@ -56,3 +56,7 @@ nav a:visited {
     transform: rotate(360deg);
   }
 }
+
+.react-vis-pie {
+  margin: 0 auto;
+}
