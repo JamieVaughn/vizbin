@@ -3,7 +3,7 @@ import useEventListener from './useEventListener'
 import useMousePosition from './useMousePosition'
 
 const MIN_SCALE = 0.2
-const MAX_SCALE = 10
+const MAX_SCALE = 8
 /**
  * Listen for `wheel` events on the given element ref and update the reported
  * scale state, accordingly.
@@ -25,7 +25,7 @@ export default function useScale(ref) {
     'wheel',
     e => {
       e.preventDefault()
-      let dial = !e.ctrlKey ? 0.1 : 0.1*scale
+      let dial = !e.ctrlKey ? 0.01 : 0.1*scale
       updateScale({
         direction: e.deltaY > 0 ? 'up' : 'down',
         delta: dial

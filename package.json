@@ -7,6 +7,8 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@nivo/bullet": "^0.67.0",
+    "@nivo/core": "^0.67.0",
     "@visx/axis": "^1.4.0",
     "@visx/brush": "^1.4.0",
     "@visx/curve": "^1.0.0",

@@ -8,7 +8,10 @@ import Visx from "./components/visx"
 import StackedArea from "./components/victory"
 import LineRecharts from "./components/recharts"
 import PieReactVis from "./components/reactvis"
+import NivoBullet from './components/nivo';
 import { ZoomPan } from "./components/zoompan"
+
+import { nivoData } from '../public/data/nivo.js'
 
 function App() {
   // Create the count state.
@@ -36,6 +39,7 @@ function App() {
         <Route path="/victory" element={<StackedArea />} />
         <Route path="/recharts" element={<LineRecharts />} />
         <Route path="/reactvis" element={<PieReactVis />} />
+        <Route path="/nivo" element={<NivoBullet data={nivoData} />} />
         <Route path="/zoompan" element={<ZoomPan />} />
       </Routes>
     </div>

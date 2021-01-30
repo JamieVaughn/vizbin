@@ -8,6 +8,7 @@ export default function Navigate(props) {
             <Link to="/victory">Victory</Link>
             <Link to="/recharts">Recharts</Link>
             <Link to="/reactvis">React-Vis</Link>
+            <Link to="/nivo">Nivo</Link>
             <Link to="/zoompan">ZoomPan</Link>
         </nav>
     )
