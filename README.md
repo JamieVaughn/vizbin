@@ -5,11 +5,15 @@
 - [ ] [D3](https://d3js.org/)
 - [ ] [Vega](https://vega.github.io/vega/)
 - [ ] [Vega-Lite](https://vega.github.io/vega-lite/)
-- [x] [Stacked Bars](https://wjv.io/vizbin/visx) with[VisX](https://airbnb.io/visx/gallery)
+- [x] [Stacked Bars](https://wjv.io/vizbin/visx) with [VisX](https://airbnb.io/visx/gallery) ... [VisX Demos](https://github.com/airbnb/visx/tree/master/packages/visx-demo)
 - [x] [Stacked Area](https://wjv.io/vizbin/victory) with [Victory](https://formidable.com/open-source/victory/gallery/)
 - [x] [Line Chart](https://wjv.io/vizbin/recharts) with[Recharts](http://recharts.org/en-US/examples)
 - [x] [Pie Chart](https://wjv.io/vizbin/reactvis) with [React-Vis](https://uber.github.io/react-vis/)
+- [x] [Bullet Chart](https://wjv.io/vizbin/nivo) with [Nivo](https://nivo.rocks/components)
+- [x] [Brush Chart](https://wjv.io/vizbin/vx) with [VX](https://vx-demo.now.sh/gallery) (VX has been merged into VisX now)
 - [x] [Custom Zoom/Pan](https://wjv.io/vizbin/zoompan)
+
+
 
 
 > WebGL experiments

@@ -53,9 +53,7 @@ export default function useEventListener(eventName, handler, element = window){
       element.addEventListener(eventName, eventListener);
       
       // Remove event listener on cleanup
-      return () => {
-        element.removeEventListener(eventName, eventListener);
-      };
+      return () => element.removeEventListener(eventName, eventListener);
     },
     [eventName, element] // Re-run if eventName or element changes
   );

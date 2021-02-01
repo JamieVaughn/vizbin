@@ -9,6 +9,7 @@ export default function Navigate(props) {
             <Link to="/recharts">Recharts</Link>
             <Link to="/reactvis">React-Vis</Link>
             <Link to="/nivo">Nivo</Link>
+            <Link to="/vx">VX</Link>
             <Link to="/zoompan">ZoomPan</Link>
         </nav>
     )

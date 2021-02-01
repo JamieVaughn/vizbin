@@ -9,6 +9,7 @@ import StackedArea from "./components/victory"
 import LineRecharts from "./components/recharts"
 import PieReactVis from "./components/reactvis"
 import NivoBullet from './components/nivo';
+import BrushChart from './components/vx';
 import { ZoomPan } from "./components/zoompan"
 
 import { nivoData } from '../public/data/nivo.js'
@@ -40,6 +41,7 @@ function App() {
         <Route path="/recharts" element={<LineRecharts />} />
         <Route path="/reactvis" element={<PieReactVis />} />
         <Route path="/nivo" element={<NivoBullet data={nivoData} />} />
+        <Route path="/vx" element={<BrushChart height={400} width={600} />} />
         <Route path="/zoompan" element={<ZoomPan />} />
       </Routes>
     </div>
