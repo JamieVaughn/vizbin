@@ -60,3 +60,16 @@ nav a:visited {
 .react-vis-pie {
   margin: 0 auto;
 }
+
+.wythe {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+canvas {
+  border-bottom: 1px solid white;
+  /* border-right: 2px solid chartreuse; */
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+}

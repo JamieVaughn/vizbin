@@ -10,6 +10,7 @@ import LineRecharts from "./components/recharts"
 import PieReactVis from "./components/reactvis"
 import NivoBullet from './components/nivo';
 import BrushChart from './components/vx';
+import WythePlot from './components/wythe';
 import { ZoomPan } from "./components/zoompan"
 
 import { nivoData } from '../public/data/nivo.js'
@@ -42,6 +43,7 @@ function App() {
         <Route path="/reactvis" element={<PieReactVis />} />
         <Route path="/nivo" element={<NivoBullet data={nivoData} />} />
         <Route path="/vx" element={<BrushChart height={400} width={600} />} />
+        <Route path="/wythe" element={<div style={{margin: '1rem'}}><WythePlot /></div>} />
         <Route path="/zoompan" element={<ZoomPan />} />
       </Routes>
     </div>
