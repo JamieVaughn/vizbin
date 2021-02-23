@@ -5,6 +5,8 @@ import './App.css';
 import Navigate from "./components/navigate"
 import Home from "./components/home"
 import Visx from "./components/visx"
+import D3react from "./components/D3react"
+import Dashboard from "./components/dashboard/index.jsx"
 import StackedArea from "./components/victory"
 import LineRecharts from "./components/recharts"
 import PieReactVis from "./components/reactvis"
@@ -14,6 +16,7 @@ import WythePlot from './components/wythe';
 import { ZoomPan } from "./components/zoompan"
 
 import { nivoData } from '../public/data/nivo.js'
+import { quality } from '../public/data/quality.js'
 
 function App() {
   // Create the count state.
@@ -37,6 +40,12 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/d3" element={<D3react data={quality} 
+          height={40} width={200} margin={20} 
+          selectX={datum => (new Date(datum.day).setHours(0,0,0,0))}
+          selectY={datum => datum.productPerceivedQuality}
+        />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/visx" element={<Visx />} />
         <Route path="/victory" element={<StackedArea />} />
         <Route path="/recharts" element={<LineRecharts />} />

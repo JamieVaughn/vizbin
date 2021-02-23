@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 export default function Navigate(props) {
     return (
         <nav>
+            <Link to="/d3">D3</Link>
+            <Link to="/dashboard">Dashboard</Link>
             <Link to="/visx">VisX</Link>
             <Link to="/victory">Victory</Link>
             <Link to="/recharts">Recharts</Link>
