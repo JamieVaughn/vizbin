@@ -2,7 +2,8 @@
 
 > A pile of visualizations using React, D3, and other viz libraries
 
-- [ ] [D3](https://d3js.org/)
+- [x] [D3 Examples](https://wjv.io/vizbin/d3)with [D3](https://d3js.org/)
+- [x] [D3 Dashbaord](https://wjv.io/vizbin/dashboard)with [D3](https://d3js.org/)
 - [ ] [Vega](https://vega.github.io/vega/)
 - [ ] [Vega-Lite](https://vega.github.io/vega-lite/)
 - [x] [Stacked Bars](https://wjv.io/vizbin/visx) with [VisX](https://airbnb.io/visx/gallery) ... [VisX Demos](https://github.com/airbnb/visx/tree/master/packages/visx-demo)
@@ -22,6 +23,8 @@
 - [ ] [Kepler.gl](https://kepler.gl/) https://luma.gl/
 - [ ] [Luma.gl](https://luma.gl/) https://github.com/Netflix/vizceral
 - [ ] [Vizceral](https://github.com/Netflix/vizceral)
+- [ ] [CanvasPlot](https://cau-se.github.io/canvas-plot/)
+
 
 ## Available Scripts
 
