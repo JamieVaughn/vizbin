@@ -1,5 +1,5 @@
-import React from "../../snowpack/pkg/react.js";
-import {Link} from "../../snowpack/pkg/react-router-dom.js";
+import React from "../../_snowpack/pkg/react.js";
+import {Link} from "../../_snowpack/pkg/react-router-dom.js";
 export default function Navigate(props) {
   return /* @__PURE__ */ React.createElement("nav", null, /* @__PURE__ */ React.createElement(Link, {
     to: "/d3"

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "../../snowpack/pkg/react.js";
+import { useEffect, useState } from "../../_snowpack/pkg/react.js";
 
 export default function useMousePosition(el) {
   const [position, setPosition] = useState({ x: 0, y: 0 });

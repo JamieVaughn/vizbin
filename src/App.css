@@ -40,6 +40,7 @@ nav {
 }
 nav a {
   margin: 0 0.5rem;
+  color: #61dafb;
 }
 nav a {
   margin: 0 0.5rem;
@@ -55,6 +56,11 @@ nav a:visited {
   to {
     transform: rotate(360deg);
   }
+}
+
+.zoompan {
+  position: absolute;
+  background-image: url("../grid.svg");
 }
 
 .react-vis-pie {

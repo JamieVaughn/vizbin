@@ -1,5 +1,5 @@
-import React, {useState} from "../../snowpack/pkg/react.js";
-import {VictoryArea, VictoryChart, VictoryStack, VictoryVoronoiContainer, Area} from "../../snowpack/pkg/victory.js";
+import React, {useState} from "../../_snowpack/pkg/react.js";
+import {VictoryArea, VictoryChart, VictoryStack, VictoryVoronoiContainer, Area} from "../../_snowpack/pkg/victory.js";
 const CustomArea = (props) => {
   if (!props.active) {
     return /* @__PURE__ */ React.createElement(Area, {

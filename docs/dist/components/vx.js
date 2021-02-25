@@ -1,10 +1,10 @@
-import React, {useState, useMemo} from "../../snowpack/pkg/react.js";
-import {scaleTime, scaleLinear} from "../../snowpack/pkg/@vx/scale.js";
-import appleStock from "../../snowpack/pkg/@vx/mock-data/lib/mocks/appleStock.js";
-import {Brush} from "../../snowpack/pkg/@vx/brush.js";
-import {PatternLines} from "../../snowpack/pkg/@vx/pattern.js";
-import {LinearGradient} from "../../snowpack/pkg/@vx/gradient.js";
-import {max, extent} from "../../snowpack/pkg/d3-array.js";
+import React, {useState, useMemo} from "../../_snowpack/pkg/react.js";
+import {scaleTime, scaleLinear} from "../../_snowpack/pkg/@vx/scale.js";
+import appleStock from "../../_snowpack/pkg/@vx/mock-data/lib/mocks/appleStock.js";
+import {Brush} from "../../_snowpack/pkg/@vx/brush.js";
+import {PatternLines} from "../../_snowpack/pkg/@vx/pattern.js";
+import {LinearGradient} from "../../_snowpack/pkg/@vx/gradient.js";
+import {max, extent} from "../../_snowpack/pkg/d3-array.js";
 import AreaChart from "./areachart.js";
 const stock = appleStock.slice(1e3);
 const brushMargin = {top: 10, bottom: 15, left: 50, right: 20};

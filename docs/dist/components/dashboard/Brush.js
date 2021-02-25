@@ -1,6 +1,6 @@
-import React, {useEffect, useRef} from "../../../snowpack/pkg/react.js";
+import React, {useEffect, useRef} from "../../../_snowpack/pkg/react.js";
 import "./App.css.proxy.js";
-import * as d3 from "../../../snowpack/pkg/d3.js";
+import * as d3 from "../../../_snowpack/pkg/d3.js";
 function Brush(props) {
   const {size, changeBrush} = props;
   const node = useRef();

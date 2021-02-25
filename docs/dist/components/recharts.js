@@ -1,4 +1,4 @@
-import React, {useState, PureComponent} from "../../snowpack/pkg/react.js";
+import React, {useState, PureComponent} from "../../_snowpack/pkg/react.js";
 import {
   Label,
   LineChart,
@@ -8,7 +8,7 @@ import {
   YAxis,
   Tooltip,
   ReferenceArea
-} from "../../snowpack/pkg/recharts.js";
+} from "../../_snowpack/pkg/recharts.js";
 const data = [
   {name: 1, cost: 4.11, impression: 100},
   {name: 2, cost: 2.39, impression: 120},

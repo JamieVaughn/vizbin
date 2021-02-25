@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "../../snowpack/pkg/react.js";
+import { useEffect, useRef } from "../../_snowpack/pkg/react.js";
 
 export default function useScrollPos(el) {
 //   const top = useRef(el);

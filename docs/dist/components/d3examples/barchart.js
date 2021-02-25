@@ -1,5 +1,5 @@
-import React, {useEffect, useRef} from "../../../snowpack/pkg/react.js";
-import * as d3 from "../../../snowpack/pkg/d3.js";
+import React, {useEffect, useRef} from "../../../_snowpack/pkg/react.js";
+import * as d3 from "../../../_snowpack/pkg/d3.js";
 const barData = [
   {key: "0", value: 59},
   {key: "1", value: 78},

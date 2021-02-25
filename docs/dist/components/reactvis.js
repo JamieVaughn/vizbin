@@ -1,5 +1,5 @@
-import React from "../../snowpack/pkg/react.js";
-import {XYPlot, ArcSeries, XAxis, YAxis} from "../../snowpack/pkg/react-vis.js";
+import React from "../../_snowpack/pkg/react.js";
+import {XYPlot, ArcSeries, XAxis, YAxis} from "../../_snowpack/pkg/react-vis.js";
 const COLORS = [
   "#19CDD7",
   "#DDB27C",

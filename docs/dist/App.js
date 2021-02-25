@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "../snowpack/pkg/react.js";
-import {Routes, Route, Link} from "../snowpack/pkg/react-router-dom.js";
+import React, {useState, useEffect} from "../_snowpack/pkg/react.js";
+import {Routes, Route, Link} from "../_snowpack/pkg/react-router-dom.js";
 import logo from "./logo.svg.proxy.js";
 import "./App.css.proxy.js";
 import Navigate from "./components/navigate.js";

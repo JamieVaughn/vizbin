@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "../../../snowpack/pkg/react.js";
+import React, {useEffect, useState} from "../../../_snowpack/pkg/react.js";
 import "./App.css.proxy.js";
 import WorldMap from "./WorldMap.js";
 import BarChart from "./BarChart.js";
@@ -6,7 +6,7 @@ import StreamGraph from "./StreamGraph.js";
 import Brush from "./Brush.js";
 import StatLine from "./StatLine.js";
 import worlddata from "../../../data/americas.js";
-import * as d3 from "../../../snowpack/pkg/d3.js";
+import * as d3 from "../../../_snowpack/pkg/d3.js";
 const appdata = worlddata.features.filter((d) => d3.geoPath().centroid(d)[0] < -20);
 appdata.forEach((d, i) => {
   const offset = Math.random();

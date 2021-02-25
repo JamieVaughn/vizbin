@@ -1,4 +1,4 @@
-import {useState} from '../../snowpack/pkg/react.js'
+import {useState} from '../../_snowpack/pkg/react.js'
 import useEventListener from './useEventListener.js'
 import useMousePosition from './useMousePosition.js'
 

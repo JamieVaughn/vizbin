@@ -1,5 +1,5 @@
-import React from "../../snowpack/pkg/react.js";
-import {ResponsiveBullet} from "../../snowpack/pkg/@nivo/bullet.js";
+import React from "../../_snowpack/pkg/react.js";
+import {ResponsiveBullet} from "../../_snowpack/pkg/@nivo/bullet.js";
 export default function NivoBullet({data}) {
   return /* @__PURE__ */ React.createElement("div", {
     style: {height: "500px"}

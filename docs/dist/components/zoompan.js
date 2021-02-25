@@ -1,7 +1,7 @@
-import React, {useLayoutEffect, useEffect, useState, useRef} from "../../snowpack/pkg/react.js";
+import React, {useLayoutEffect, useEffect, useState, useRef} from "../../_snowpack/pkg/react.js";
 import usePan from "../hooks/usePan.js";
 import useScale from "../hooks/useScale.js";
-import styled from "../../snowpack/pkg/styled-components.js";
+import styled from "../../_snowpack/pkg/styled-components.js";
 import useEventListener from "../hooks/useEventListener.js";
 const Hud = styled.span`
     z-index: 99;
@@ -76,11 +76,10 @@ export const ZoomPan = () => {
     style: {...styles, ...cursor},
     ref
   }, /* @__PURE__ */ React.createElement("div", {
+    className: "zoompan",
     style: {
-      position: "absolute",
       transition: `transform .2s ${interaction === "Panning" ? "" : ", background-position .45s"}`,
       inset: `${inset.y}px ${inset.x}px`,
-      backgroundImage: `url("/grid.svg")`,
       transform: `scale(${scale})`,
       backgroundPosition: `${-adjust.x - offset.x}px ${-adjust.y - offset.y}px`
     }

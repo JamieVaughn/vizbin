@@ -1,4 +1,4 @@
-import React from "../../../snowpack/pkg/react.js";
+import React from "../../../_snowpack/pkg/react.js";
 export default function StatLine(props) {
   const {allData, filteredData} = props;
   let allSales = allData.reduce((a, c, i) => {

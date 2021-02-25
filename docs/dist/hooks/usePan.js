@@ -2,7 +2,7 @@ import {
     useCallback,
     useRef,
     useState
-  } from '../../snowpack/pkg/react.js'
+  } from '../../_snowpack/pkg/react.js'
   const ORIGIN = Object.freeze({x: 0, y: 0})
   /**
    * Track the user's intended panning offset by listening to `mousemove` events

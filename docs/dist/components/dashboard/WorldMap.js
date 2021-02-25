@@ -1,6 +1,6 @@
-import React from "../../../snowpack/pkg/react.js";
+import React from "../../../_snowpack/pkg/react.js";
 import "./App.css.proxy.js";
-import {geoMercator, geoPath} from "../../../snowpack/pkg/d3-geo.js";
+import {geoMercator, geoPath} from "../../../_snowpack/pkg/d3-geo.js";
 function WorldMap(props) {
   const {onHover, hoverElement, colorScale, size, data} = props;
   const projection = geoMercator().scale(100).translate([350, 300]);

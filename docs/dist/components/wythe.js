@@ -1,5 +1,5 @@
-import React, {useEffect, useRef, useState} from "../../snowpack/pkg/react.js";
-import * as d3 from "../../snowpack/pkg/d3.js";
+import React, {useEffect, useRef, useState} from "../../_snowpack/pkg/react.js";
+import * as d3 from "../../_snowpack/pkg/d3.js";
 import {stream} from "../../data/snr_data.js";
 const CoursePlot = (props) => {
   const {height, width, scale} = props;

@@ -1,9 +1,9 @@
-import React from "../../snowpack/pkg/react.js";
-import {Group} from "../../snowpack/pkg/@visx/group.js";
-import {AreaClosed} from "../../snowpack/pkg/@visx/shape.js";
-import {AxisLeft, AxisBottom} from "../../snowpack/pkg/@visx/axis.js";
-import {LinearGradient} from "../../snowpack/pkg/@visx/gradient.js";
-import {curveMonotoneX} from "../../snowpack/pkg/@visx/curve.js";
+import React from "../../_snowpack/pkg/react.js";
+import {Group} from "../../_snowpack/pkg/@visx/group.js";
+import {AreaClosed} from "../../_snowpack/pkg/@visx/shape.js";
+import {AxisLeft, AxisBottom} from "../../_snowpack/pkg/@visx/axis.js";
+import {LinearGradient} from "../../_snowpack/pkg/@visx/gradient.js";
+import {curveMonotoneX} from "../../_snowpack/pkg/@visx/curve.js";
 const axisColor = "#fff";
 const axisBottomTickLabelProps = {
   textAnchor: "middle",

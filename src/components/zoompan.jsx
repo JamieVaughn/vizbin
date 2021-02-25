@@ -84,11 +84,9 @@ export const ZoomPan = () => {
     return (
       <>
         <div onMouseDown={startPan} style={{...styles, ...cursor}} ref={ref}>
-          <div style={{
-              position: 'absolute',
+          <div className='zoompan' style={{
               transition: `transform .2s ${interaction === 'Panning' ? '' : ', background-position .45s'}`,
               inset: `${inset.y}px ${inset.x}px`, // shorthand for top, bottom, left, right
-              backgroundImage: `url("/grid.svg")`, 
               transform: `scale(${scale})`, 
               // backgroundAttachment: 'fixed',
               backgroundPosition: `${-adjust.x-offset.x}px ${-adjust.y-offset.y}px`,

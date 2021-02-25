@@ -1,5 +1,5 @@
-import React from "../../snowpack/pkg/react.js";
-import * as d3 from "../../snowpack/pkg/d3.js";
+import React from "../../_snowpack/pkg/react.js";
+import * as d3 from "../../_snowpack/pkg/d3.js";
 import {D3HBars, D3VBars} from "./d3examples/barchart.js";
 function getMarginObjectForNumber(number) {
   return {

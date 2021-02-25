@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback } from '../../snowpack/pkg/react.js';
+import { useState, useRef, useEffect, useCallback } from '../../_snowpack/pkg/react.js';
 
 // Usage
 function App(){
