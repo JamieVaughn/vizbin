@@ -130,7 +130,7 @@ const SVGWithMargin = ({
   </svg>
 );
 
-const D3react = ({
+export const D3react = ({
   data,
   height,
   width,
@@ -203,5 +203,3 @@ const D3react = ({
     </>
   );
 };
-
-export default D3react

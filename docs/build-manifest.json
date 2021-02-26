@@ -1,0 +1,2165 @@
+{
+  "inputs": {
+    "snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "snowpack/pkg/common/_commonjsHelpers-4f955397.js": {
+      "bytes": 860,
+      "imports": []
+    },
+    "snowpack/pkg/common/index-abdc4d2d.js": {
+      "bytes": 8631,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/react.js": {
+      "bytes": 504,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/index-2be6b7dd.js": {
+      "bytes": 127512,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/react-dom.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-2be6b7dd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-2be6b7dd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/extends-7477639a.js": {
+      "bytes": 410,
+      "imports": []
+    },
+    "snowpack/pkg/common/index-ad697a84.js": {
+      "bytes": 2201,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/react-router-dom.js": {
+      "bytes": 9290,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/extends-7477639a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/logo.svg.proxy.js": {
+      "bytes": 32,
+      "imports": []
+    },
+    "dist/App.css": {
+      "bytes": 1474,
+      "imports": []
+    },
+    "dist/components/navigate.js": {
+      "bytes": 986,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/home.js": {
+      "bytes": 322,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/index-d4b0dc1b.js": {
+      "bytes": 1094,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/reverse-386d2f80.js": {
+      "bytes": 4459,
+      "imports": []
+    },
+    "snowpack/pkg/common/path-ebc45f0e.js": {
+      "bytes": 4190,
+      "imports": []
+    },
+    "snowpack/pkg/common/stack-ccc07bb1.js": {
+      "bytes": 5789,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/Group-1bab4bbd.js": {
+      "bytes": 1720,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/shape.js": {
+      "bytes": 8552,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/stack-ccc07bb1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Group-1bab4bbd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/group.js": {
+      "bytes": 221,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/Group-1bab4bbd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/Point-b58cb484.js": {
+      "bytes": 1544,
+      "imports": []
+    },
+    "snowpack/pkg/@visx/grid.js": {
+      "bytes": 10008,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Point-b58cb484.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Group-1bab4bbd.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/memoize-af238e81.js": {
+      "bytes": 20937,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/axis.js": {
+      "bytes": 54009,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Group-1bab4bbd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Point-b58cb484.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/utcYear-88153cbb.js": {
+      "bytes": 5732,
+      "imports": []
+    },
+    "snowpack/pkg/common/utcMonth-4ccdc574.js": {
+      "bytes": 19577,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/cubehelix-9d1c68c8.js": {
+      "bytes": 2690,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/hcl-198a11e3.js": {
+      "bytes": 4857,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/linear-6238e9df.js": {
+      "bytes": 21891,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/ordinal-65ab6804.js": {
+      "bytes": 1106,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/band-5eb4d7ba.js": {
+      "bytes": 3003,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/ordinal-65ab6804.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/scale.js": {
+      "bytes": 8750,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/hcl-198a11e3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/band-5eb4d7ba.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/ordinal-65ab6804.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/defaultLocale-8f6062a7.js": {
+      "bytes": 19444,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/d3-time-format.js": {
+      "bytes": 125,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/tooltip.js": {
+      "bytes": 21807,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-2be6b7dd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/legend.js": {
+      "bytes": 15253,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/Group-1bab4bbd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/visx.js": {
+      "bytes": 6545,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/shape.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/group.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/grid.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/axis.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/scale.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3-time-format.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/tooltip.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/legend.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/cubic-263021a1.js": {
+      "bytes": 3159,
+      "imports": []
+    },
+    "snowpack/pkg/common/merge-2c89d5e0.js": {
+      "bytes": 1539,
+      "imports": []
+    },
+    "snowpack/pkg/common/nice-d5ee0ce3.js": {
+      "bytes": 353,
+      "imports": []
+    },
+    "snowpack/pkg/common/millisecond-22862655.js": {
+      "bytes": 653,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/time-fb11ae4c.js": {
+      "bytes": 4582,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/max-1b484d11.js": {
+      "bytes": 509,
+      "imports": []
+    },
+    "snowpack/pkg/common/sequential-b827d1b6.js": {
+      "bytes": 7904,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/diverging-dee6d460.js": {
+      "bytes": 12911,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/time-fb11ae4c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/max-1b484d11.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/sequential-b827d1b6.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/extent-64083604.js": {
+      "bytes": 733,
+      "imports": []
+    },
+    "snowpack/pkg/common/viridis-c59cbebd.js": {
+      "bytes": 21438,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/d3.js": {
+      "bytes": 467432,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/cubic-263021a1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/merge-2c89d5e0.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/merge-2c89d5e0.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/band-5eb4d7ba.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/band-5eb4d7ba.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/diverging-dee6d460.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/diverging-dee6d460.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/sequential-b827d1b6.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/extent-64083604.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/extent-64083604.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/max-1b484d11.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/max-1b484d11.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/ordinal-65ab6804.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/time-fb11ae4c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/viridis-c59cbebd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/viridis-c59cbebd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/d3examples/barchart.js": {
+      "bytes": 3528,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/d3react.js": {
+      "bytes": 3752,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/d3examples/barchart.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/App.css": {
+      "bytes": 216,
+      "imports": []
+    },
+    "snowpack/pkg/d3-geo.js": {
+      "bytes": 50805,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/merge-2c89d5e0.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/WorldMap.js": {
+      "bytes": 840,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3-geo.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/BarChart.js": {
+      "bytes": 1792,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/StreamGraph.js": {
+      "bytes": 1510,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/Brush.js": {
+      "bytes": 1505,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/dashboard/StatLine.js": {
+      "bytes": 872,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "data/americas.js": {
+      "bytes": 253684,
+      "imports": []
+    },
+    "dist/components/dashboard/index.js": {
+      "bytes": 2411,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/WorldMap.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/BarChart.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/StreamGraph.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/Brush.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/StatLine.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "data/americas.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/flatten-6e030091.js": {
+      "bytes": 52184,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/pick-a9479e35.js": {
+      "bytes": 12618,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/flatten-6e030091.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/find-3a1334b2.js": {
+      "bytes": 50420,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/flatten-6e030091.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/step-ee54e010.js": {
+      "bytes": 20136,
+      "imports": []
+    },
+    "snowpack/pkg/common/monotone-5230af58.js": {
+      "bytes": 3234,
+      "imports": []
+    },
+    "snowpack/pkg/common/set-17856b97.js": {
+      "bytes": 23481,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/stack-ccc07bb1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/step-ee54e010.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/monotone-5230af58.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/victory.js": {
+      "bytes": 591728,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/pick-a9479e35.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/flatten-6e030091.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/find-3a1334b2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/set-17856b97.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/stack-ccc07bb1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubic-263021a1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/step-ee54e010.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/monotone-5230af58.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/victory.js": {
+      "bytes": 4010,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/victory.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/process-2545f00a.js": {
+      "bytes": 6350,
+      "imports": []
+    },
+    "snowpack/pkg/common/index-73477d67.js": {
+      "bytes": 3243,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/process-2545f00a.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/recharts.js": {
+      "bytes": 687060,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/find-3a1334b2.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/flatten-6e030091.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-73477d67.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/band-5eb4d7ba.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/diverging-dee6d460.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/sequential-b827d1b6.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/ordinal-65ab6804.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/time-fb11ae4c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/process-2545f00a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/max-1b484d11.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/recharts.js": {
+      "bytes": 4635,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/recharts.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/common/resquarify-82208d26.js": {
+      "bytes": 4860,
+      "imports": []
+    },
+    "snowpack/pkg/react-vis.js": {
+      "bytes": 538825,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/process-2545f00a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-73477d67.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/set-17856b97.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/stack-ccc07bb1.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/resquarify-82208d26.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/step-ee54e010.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/path-ebc45f0e.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/monotone-5230af58.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/reactvis.js": {
+      "bytes": 2721,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react-vis.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@nivo/bullet.js": {
+      "bytes": 320979,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/extends-7477639a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/process-2545f00a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-2be6b7dd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/flatten-6e030091.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/memoize-af238e81.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/pick-a9479e35.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/viridis-c59cbebd.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/ordinal-65ab6804.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/step-ee54e010.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/reverse-386d2f80.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/monotone-5230af58.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/resquarify-82208d26.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/sequential-b827d1b6.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/nivo.js": {
+      "bytes": 468,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@nivo/bullet.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@vx/scale.js": {
+      "bytes": 8619,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/hcl-198a11e3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/cubehelix-9d1c68c8.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcMonth-4ccdc574.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/utcYear-88153cbb.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/time-fb11ae4c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/linear-6238e9df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/nice-d5ee0ce3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/defaultLocale-8f6062a7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/millisecond-22862655.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@vx/mock-data/lib/mocks/appleStock.js": {
+      "bytes": 73105,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@vx/brush.js": {
+      "bytes": 54984,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@vx/pattern.js": {
+      "bytes": 3989,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-d4b0dc1b.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@vx/gradient.js": {
+      "bytes": 3395,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/d3-array.js": {
+      "bytes": 112,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/max-1b484d11.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/extent-64083604.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/gradient.js": {
+      "bytes": 3395,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/index-ad697a84.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/@visx/curve.js": {
+      "bytes": 70,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/monotone-5230af58.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/areachart.js": {
+      "bytes": 1984,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/group.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/shape.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/axis.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/gradient.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@visx/curve.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/vx.js": {
+      "bytes": 4549,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@vx/scale.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@vx/mock-data/lib/mocks/appleStock.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@vx/brush.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@vx/pattern.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/@vx/gradient.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3-array.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/areachart.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "data/snr_data.js": {
+      "bytes": 112075,
+      "imports": []
+    },
+    "dist/components/wythe.js": {
+      "bytes": 1811,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/d3.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "data/snr_data.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/usePan.js": {
+      "bytes": 1748,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/useEventListener.js": {
+      "bytes": 1784,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/useMousePosition.js": {
+      "bytes": 482,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/hooks/useScale.js": {
+      "bytes": 1153,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/useEventListener.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/useMousePosition.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack/pkg/styled-components.js": {
+      "bytes": 46459,
+      "imports": [
+        {
+          "path": "snowpack/pkg/common/process-2545f00a.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/_commonjsHelpers-4f955397.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/common/index-abdc4d2d.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/zoompan.js": {
+      "bytes": 4312,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/usePan.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/useScale.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/hooks/useEventListener.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "data/nivo.js": {
+      "bytes": 1064,
+      "imports": []
+    },
+    "data/quality.js": {
+      "bytes": 907,
+      "imports": []
+    },
+    "dist/App.js": {
+      "bytes": 3546,
+      "imports": [
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/logo.svg.proxy.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/navigate.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/home.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/visx.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/d3react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/dashboard/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/victory.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/recharts.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/reactvis.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/nivo.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/vx.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/wythe.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/zoompan.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "data/nivo.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "data/quality.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.css": {
+      "bytes": 366,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 638,
+      "imports": [
+        {
+          "path": "snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack/pkg/react-router-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "snowpack/pkg/@visx/tooltip.js": {
+          "bytesInOutput": 21406
+        },
+        "snowpack/env.js": {
+          "bytesInOutput": 186
+        },
+        "snowpack/pkg/common/_commonjsHelpers-4f955397.js": {
+          "bytesInOutput": 760
+        },
+        "snowpack/pkg/common/index-abdc4d2d.js": {
+          "bytesInOutput": 11187
+        },
+        "snowpack/pkg/react.js": {
+          "bytesInOutput": 243
+        },
+        "snowpack/pkg/common/index-2be6b7dd.js": {
+          "bytesInOutput": 200070
+        },
+        "snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 0
+        },
+        "snowpack/pkg/common/extends-7477639a.js": {
+          "bytesInOutput": 379
+        },
+        "snowpack/pkg/common/index-ad697a84.js": {
+          "bytesInOutput": 1422
+        },
+        "snowpack/pkg/react-router-dom.js": {
+          "bytesInOutput": 13256
+        },
+        "dist/logo.svg.proxy.js": {
+          "bytesInOutput": 47
+        },
+        "dist/App.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/navigate.js": {
+          "bytesInOutput": 851
+        },
+        "dist/components/home.js": {
+          "bytesInOutput": 258
+        },
+        "snowpack/pkg/common/index-d4b0dc1b.js": {
+          "bytesInOutput": 1126
+        },
+        "snowpack/pkg/common/reverse-386d2f80.js": {
+          "bytesInOutput": 4334
+        },
+        "snowpack/pkg/common/path-ebc45f0e.js": {
+          "bytesInOutput": 3274
+        },
+        "snowpack/pkg/common/stack-ccc07bb1.js": {
+          "bytesInOutput": 5584
+        },
+        "snowpack/pkg/common/Group-1bab4bbd.js": {
+          "bytesInOutput": 1596
+        },
+        "snowpack/pkg/@visx/shape.js": {
+          "bytesInOutput": 7658
+        },
+        "snowpack/pkg/@visx/group.js": {
+          "bytesInOutput": 0
+        },
+        "snowpack/pkg/common/Point-b58cb484.js": {
+          "bytesInOutput": 1255
+        },
+        "snowpack/pkg/@visx/grid.js": {
+          "bytesInOutput": 9600
+        },
+        "snowpack/pkg/common/memoize-af238e81.js": {
+          "bytesInOutput": 9657
+        },
+        "snowpack/pkg/@visx/axis.js": {
+          "bytesInOutput": 49655
+        },
+        "snowpack/pkg/common/utcYear-88153cbb.js": {
+          "bytesInOutput": 5387
+        },
+        "snowpack/pkg/common/utcMonth-4ccdc574.js": {
+          "bytesInOutput": 18239
+        },
+        "snowpack/pkg/common/cubehelix-9d1c68c8.js": {
+          "bytesInOutput": 2384
+        },
+        "snowpack/pkg/common/hcl-198a11e3.js": {
+          "bytesInOutput": 4593
+        },
+        "snowpack/pkg/common/linear-6238e9df.js": {
+          "bytesInOutput": 19519
+        },
+        "snowpack/pkg/common/ordinal-65ab6804.js": {
+          "bytesInOutput": 1027
+        },
+        "snowpack/pkg/common/band-5eb4d7ba.js": {
+          "bytesInOutput": 2770
+        },
+        "snowpack/pkg/@visx/scale.js": {
+          "bytesInOutput": 7011
+        },
+        "snowpack/pkg/common/defaultLocale-8f6062a7.js": {
+          "bytesInOutput": 18859
+        },
+        "snowpack/pkg/d3-time-format.js": {
+          "bytesInOutput": 0
+        },
+        "dist/components/visx.js": {
+          "bytesInOutput": 6022
+        },
+        "snowpack/pkg/@visx/legend.js": {
+          "bytesInOutput": 14140
+        },
+        "snowpack/pkg/common/cubic-263021a1.js": {
+          "bytesInOutput": 2866
+        },
+        "snowpack/pkg/d3.js": {
+          "bytesInOutput": 220220
+        },
+        "snowpack/pkg/common/merge-2c89d5e0.js": {
+          "bytesInOutput": 1084
+        },
+        "snowpack/pkg/common/nice-d5ee0ce3.js": {
+          "bytesInOutput": 321
+        },
+        "snowpack/pkg/common/millisecond-22862655.js": {
+          "bytesInOutput": 531
+        },
+        "snowpack/pkg/common/time-fb11ae4c.js": {
+          "bytesInOutput": 3759
+        },
+        "snowpack/pkg/common/max-1b484d11.js": {
+          "bytesInOutput": 481
+        },
+        "snowpack/pkg/common/sequential-b827d1b6.js": {
+          "bytesInOutput": 7474
+        },
+        "snowpack/pkg/common/diverging-dee6d460.js": {
+          "bytesInOutput": 11866
+        },
+        "snowpack/pkg/common/extent-64083604.js": {
+          "bytesInOutput": 814
+        },
+        "snowpack/pkg/common/viridis-c59cbebd.js": {
+          "bytesInOutput": 19383
+        },
+        "dist/components/d3examples/barchart.js": {
+          "bytesInOutput": 3348
+        },
+        "dist/components/d3react.js": {
+          "bytesInOutput": 3615
+        },
+        "dist/components/dashboard/App.css": {
+          "bytesInOutput": 0
+        },
+        "snowpack/pkg/d3-geo.js": {
+          "bytesInOutput": 47737
+        },
+        "dist/components/dashboard/WorldMap.js": {
+          "bytesInOutput": 730
+        },
+        "dist/components/dashboard/BarChart.js": {
+          "bytesInOutput": 1705
+        },
+        "dist/components/dashboard/StreamGraph.js": {
+          "bytesInOutput": 1396
+        },
+        "dist/components/dashboard/Brush.js": {
+          "bytesInOutput": 1342
+        },
+        "dist/components/dashboard/StatLine.js": {
+          "bytesInOutput": 813
+        },
+        "data/americas.js": {
+          "bytesInOutput": 274581
+        },
+        "dist/components/dashboard/index.js": {
+          "bytesInOutput": 2112
+        },
+        "snowpack/pkg/common/flatten-6e030091.js": {
+          "bytesInOutput": 24778
+        },
+        "snowpack/pkg/common/pick-a9479e35.js": {
+          "bytesInOutput": 6173
+        },
+        "snowpack/pkg/common/find-3a1334b2.js": {
+          "bytesInOutput": 21973
+        },
+        "snowpack/pkg/common/step-ee54e010.js": {
+          "bytesInOutput": 20516
+        },
+        "snowpack/pkg/common/monotone-5230af58.js": {
+          "bytesInOutput": 2820
+        },
+        "snowpack/pkg/common/set-17856b97.js": {
+          "bytesInOutput": 20574
+        },
+        "snowpack/pkg/victory.js": {
+          "bytesInOutput": 526839
+        },
+        "dist/components/victory.js": {
+          "bytesInOutput": 3832
+        },
+        "snowpack/pkg/common/process-2545f00a.js": {
+          "bytesInOutput": 4466
+        },
+        "snowpack/pkg/common/index-73477d67.js": {
+          "bytesInOutput": 2873
+        },
+        "snowpack/pkg/recharts.js": {
+          "bytesInOutput": 556017
+        },
+        "dist/components/recharts.js": {
+          "bytesInOutput": 4487
+        },
+        "snowpack/pkg/common/resquarify-82208d26.js": {
+          "bytesInOutput": 4620
+        },
+        "snowpack/pkg/react-vis.js": {
+          "bytesInOutput": 483688
+        },
+        "dist/components/reactvis.js": {
+          "bytesInOutput": 2700
+        },
+        "snowpack/pkg/@nivo/bullet.js": {
+          "bytesInOutput": 266560
+        },
+        "dist/components/nivo.js": {
+          "bytesInOutput": 349
+        },
+        "snowpack/pkg/@vx/scale.js": {
+          "bytesInOutput": 6905
+        },
+        "snowpack/pkg/@vx/mock-data/lib/mocks/appleStock.js": {
+          "bytesInOutput": 80680
+        },
+        "snowpack/pkg/@vx/brush.js": {
+          "bytesInOutput": 53718
+        },
+        "snowpack/pkg/@vx/pattern.js": {
+          "bytesInOutput": 3550
+        },
+        "snowpack/pkg/@vx/gradient.js": {
+          "bytesInOutput": 3219
+        },
+        "snowpack/pkg/d3-array.js": {
+          "bytesInOutput": 0
+        },
+        "snowpack/pkg/@visx/gradient.js": {
+          "bytesInOutput": 3221
+        },
+        "snowpack/pkg/@visx/curve.js": {
+          "bytesInOutput": 0
+        },
+        "dist/components/areachart.js": {
+          "bytesInOutput": 1632
+        },
+        "dist/components/vx.js": {
+          "bytesInOutput": 4081
+        },
+        "dist/components/wythe.js": {
+          "bytesInOutput": 1636
+        },
+        "dist/hooks/usePan.js": {
+          "bytesInOutput": 1076
+        },
+        "dist/hooks/useEventListener.js": {
+          "bytesInOutput": 513
+        },
+        "dist/hooks/useMousePosition.js": {
+          "bytesInOutput": 396
+        },
+        "dist/hooks/useScale.js": {
+          "bytesInOutput": 693
+        },
+        "snowpack/pkg/styled-components.js": {
+          "bytesInOutput": 55222
+        },
+        "dist/components/zoompan.js": {
+          "bytesInOutput": 4031
+        },
+        "data/nivo.js": {
+          "bytesInOutput": 1014
+        },
+        "data/quality.js": {
+          "bytesInOutput": 786
+        },
+        "dist/App.js": {
+          "bytesInOutput": 2695
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 281
+        }
+      },
+      "bytes": 3233414
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/index.css": {
+          "bytesInOutput": 353
+        },
+        "dist/App.css": {
+          "bytesInOutput": 1402
+        },
+        "dist/components/dashboard/App.css": {
+          "bytesInOutput": 193
+        }
+      },
+      "bytes": 2030
+    }
+  }
+}

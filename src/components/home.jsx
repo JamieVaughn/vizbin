@@ -3,9 +3,9 @@ import React from 'react'
 export default function Home(props) {
     return (
         <div>
-            Home
+            <h1>Welcome to Vizbin!</h1>
             <p>
-                This is VizBin!
+                Explore the pile of data visualizations I put here.
             </p>
         </div>
     )

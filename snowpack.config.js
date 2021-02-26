@@ -11,7 +11,7 @@ module.exports = {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    // "bundle": true,
+    "bundle": true,
   },
   packageOptions: {
     /* ... */
@@ -20,6 +20,8 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-   
+    baseUrl: './',
+    out: 'docs',
+    metaUrlPath: 'snowpack'
   },
 };

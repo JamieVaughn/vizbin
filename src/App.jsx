@@ -5,7 +5,7 @@ import './App.css';
 import Navigate from "./components/navigate"
 import Home from "./components/home"
 import Visx from "./components/visx"
-import D3react from "./components/D3react"
+import { D3react } from "./components/d3react"
 import Dashboard from "./components/dashboard/index.jsx"
 import StackedArea from "./components/victory"
 import LineRecharts from "./components/recharts"
