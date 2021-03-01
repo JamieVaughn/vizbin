@@ -101,3 +101,17 @@ canvas {
   stroke: #fafafa;
   stroke-width: 2;
 }
+
+/* temp chart */
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px;
+  background: white; 
+  transition: opacity 200ms;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transform: translate(0, 100px);
+}
+
