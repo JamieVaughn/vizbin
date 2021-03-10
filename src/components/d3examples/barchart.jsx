@@ -35,6 +35,7 @@ function D3HBars({ data = barData, width = 400, height = 25 }) {
             style={{ transform: `translate(${margin}px, ${yMargin(d.key)}px)` }}
         >
             <rect
+                x={margin}
                 width={xMargin(d.value) - xMargin(0)}
                 height={yMargin.bandwidth()}
                 stroke="white"
@@ -54,26 +55,17 @@ function D3HBars({ data = barData, width = 400, height = 25 }) {
     const xAxis = d3.axisBottom(xMargin)
     const yAxis = d3.axisLeft(yMargin)
 
-    // console.log(xAxis)
-    //     container.append('g')
-    //     .attr('transform', `translate(0, ${height - margin.bottom})`)
-    //     .call(d3.axisBottom(xMargin));
-
-    //   container.append('g')
-    //     .attr('transform', `translate(${margin.left}, 0)`)
-    //     .call(d3.axisLeft(yMargin))
-
     return (
         <div>
             <h1>Horizontal Bar chart</h1>
-            <svg width={width} height={h} style={{ border: '1px dotted grey' }}>
+            <svg width={width + margin} height={h + margin} style={{ border: '1px dotted grey' }}>
                 {bars}
-                <g style={{ transform: `translate(0, ${h - margin}px)` }}>
-                    {xAxis}
-                </g>
-                <g style={{ transform: `translate(${margin}px, 0)` }}>
-                    {yAxis}
-                </g>
+                <g style={{ transform: `translate(${margin}px, ${h - margin}px)` }}
+                ref={node => d3.select(node).call(xAxis)}
+                />
+                <g style={{ transform: `translate(${2*margin}px, 0)` }}
+                ref={node => d3.select(node).call(yAxis)}
+                />
             </svg>
         </div>
     )
