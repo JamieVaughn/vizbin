@@ -15,7 +15,6 @@ const colors = d3
         .domain([MIN_TEMP, 70, MAX_TEMP])
         .range(['royalblue', 'wheat', 'crimson'])
 
-console.log('d', dates)
     // myChart
     //     .transition()
     //     .attr('height', function (d) {

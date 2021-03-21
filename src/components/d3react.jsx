@@ -1,7 +1,11 @@
 import React from 'react'
 import * as d3 from 'd3'
 import { D3HBars, D3VBars } from './d3examples/barchart'
+import OneLine from './d3examples/line'
+import TextbookLine from './d3examples/textbookLine'
+import UseTextbookLine from './d3examples/useTextbookLine'
 import { Temps } from './d3examples/temps'
+import { textData } from '../data/textLine'
 
 // type Props = {
 //   data: any,
@@ -11,6 +15,8 @@ import { Temps } from './d3examples/temps'
 //   selectY: (datum: any) => any,
 //   width: number,
 // };
+
+console.log('data', textData)
 
 function getMarginObjectForNumber(number) {
     return {
@@ -182,10 +188,17 @@ export const D3react = ({ data, height, width, margin, selectX, selectY }) => {
                 </g>
             </SVGWithMargin>
 
+            <OneLine dimensions={{h: 125, w: 400, m: 20}} rawdata={[5, 10, 20, 35, 55, 85 , 120]} />
+
             <D3HBars />
             <D3VBars />
 
             <Temps height={400} width={600} />
+
+            <TextbookLine data={textData} />
+
+            <UseTextbookLine data={textData} />
+
         </>
     )
 }

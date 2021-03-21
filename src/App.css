@@ -115,3 +115,22 @@ canvas {
   transform: translate(0, 100px);
 }
 
+.one-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.range-container {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-90deg);
+  height: 80px;
+}
+#tips-tricks {
+  margin: 6rem auto;
+}
+#tips-tricks .text-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
