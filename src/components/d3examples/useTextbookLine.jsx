@@ -73,6 +73,7 @@ y.domain([0, d3.max(tdata, function(d) { return d.close; })]);
 svg.append("path")
   .data([tdata])
   .attr("class", "line")
+  .attr('stroke-dasharray', '3, 3, 10, 10') // this means 3 pixels on, 3 pixels off, 10 pixels on, 10 pixels off, repeat (any even length list is ok)
   .attr("d", valueline)
   .attr("stroke", 'steelblue')
   .attr("fill", 'none');

@@ -134,3 +134,40 @@ canvas {
   stroke: steelblue;
   stroke-width: 2px;
 }
+
+.axis {
+  font: 8px times;
+}
+
+.rotate-ticks text {
+  text-anchor: end;
+  transform: translate(-1.2em, 0.4em) rotate(-65deg);
+}
+
+.area {
+  stroke: none;
+  fill: lightsteelblue;
+}
+.area-above {
+  stroke: none;
+  fill: mistyrose;
+}
+
+.grid line {
+  stroke: lightgrey; 
+  stroke-opacity: 0.7; 
+  shape-rendering: crispEdges;
+}
+.grid path { 
+  stroke-width: 0; /* this hides everything but the orthogonal tick marks (which are line elements) */
+}
+
+/* Dual Axis Line Graph Styles */
+
+.axisRight text {
+  fill: crimson;
+}
+
+.axisLeft text {
+  fill: steelblue;
+}

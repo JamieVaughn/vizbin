@@ -4,6 +4,7 @@ import { D3HBars, D3VBars } from './d3examples/barchart'
 import OneLine from './d3examples/line'
 import TextbookLine from './d3examples/textbookLine'
 import UseTextbookLine from './d3examples/useTextbookLine'
+import DualAxes from './d3examples/dualAxes'
 import { Temps } from './d3examples/temps'
 import { textData } from '../data/textLine'
 
@@ -15,8 +16,6 @@ import { textData } from '../data/textLine'
 //   selectY: (datum: any) => any,
 //   width: number,
 // };
-
-console.log('data', textData)
 
 function getMarginObjectForNumber(number) {
     return {
@@ -198,6 +197,8 @@ export const D3react = ({ data, height, width, margin, selectX, selectY }) => {
             <TextbookLine data={textData} />
 
             <UseTextbookLine data={textData} />
+
+            <DualAxes />
 
         </>
     )
