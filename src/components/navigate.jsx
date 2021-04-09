@@ -14,6 +14,9 @@ export default function Navigate(props) {
             <Link to="/vx">VX</Link>
             <Link to="/wythe">Wythe</Link>
             <Link to="/zoompan">ZoomPan</Link>
+            <Link to="/geozoom">GeoZoom</Link>
+            <Link to="/animated">Circles</Link>
+            <Link to="/map">Map</Link>
         </nav>
     )
 }
