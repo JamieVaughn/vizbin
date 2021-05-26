@@ -39,7 +39,7 @@ const initial = {
 export const Temps = ({height, width}) => {
     const [tooltip, setTooltip] = useState(initial)
 
-    const handleHover = (e, t) => {
+    const handleHover = (e, t, date) => {
         const box = e.target.parentNode.getBoundingClientRect()
         const idx = Number(e.target.dataset.idx)
         setTooltip({
@@ -48,7 +48,8 @@ export const Temps = ({height, width}) => {
             // x: (w - box.x) + 14*(idx-1) ,
             x: w - box.x/1.5,
             y: h - h/2 + 96,
-            content: 'Temp: ' + t + '°F'
+            content: 'Temp: ' + t + '°F',
+            date: date
         })
     }
 
@@ -93,30 +94,38 @@ export const Temps = ({height, width}) => {
                     temperatures.map((t, i) => {
                         return (
                             <rect 
+                                className='bar'
                                 key={i}
+                                data-date={dates[i]}
+                                data-gdp={temperatures[i]}
                                 data-idx={i}
                                 fill={tooltip.hover === i ? 'gold' : colors(t)} 
                                 width={xScale.bandwidth()} 
                                 height={yScale(t)- margin.bottom} 
                                 x={xScale(t) + margin.left}
                                 y={h - yScale(t)}
-                                onMouseOver={(e) => handleHover(e, t)}
+                                onMouseOver={(e) => handleHover(e, t, dates[i])}
                             />
                         )
                     })
                 }
             </g>
             <g 
+            id='x-axis'
             className='xAxis'
             style={{transform: `translate(0, ${h - margin.bottom}px)`}}
             ref={(node) => d3.select(node).call(xAxis)}
             />
             <g 
+            id='y-axis'
             className='yAxis'
             style={{transform: `translate(${margin.left}px, 0)`}}
             ref={(node) => d3.select(node).call(yAxis)}
             />
-            <g className='tooltip'
+            <g 
+            id='tooltip'
+            className='tooltip'
+            data-date={tooltip.date}
             style={{transform: `translate(${tooltip.x}px, ${tooltip.y - 48}px, 1px)`}}>
                 <text fill='black'>{tooltip.content}</text>
             </g>

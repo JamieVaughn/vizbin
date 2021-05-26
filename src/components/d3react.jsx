@@ -191,8 +191,10 @@ export const D3react = ({ data, height, width, margin, selectX, selectY }) => {
 
             <D3HBars />
             <D3VBars />
-
-            <Temps height={400} width={600} />
+            <div className="wrapper">
+                <h1 id="title">Temp bar chart</h1>
+                <Temps height={400} width={600} />
+            </div>            
 
             <TextbookLine data={textData} />
 

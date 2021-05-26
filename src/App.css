@@ -191,3 +191,18 @@ line.grid {
   width: 600px;
   margin: 0 auto;
 }
+
+
+/* Heatmap */
+
+.dataset-container {
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dataset-container label {
+  font: 10px sans-serif;
+}
