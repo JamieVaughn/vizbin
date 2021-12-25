@@ -17,6 +17,7 @@ import { ZoomPan } from './components/zoompan'
 import GeometricZoom from './components/geometriczoom'
 import {AnimatedCircles} from './components/animatedcircles'
 import { WorldMap } from './components/worldmap'
+import SimpleLine from './components/simpleline'
 
 import { nivoData } from '../public/data/nivo.js'
 import { quality } from '../public/data/quality.js'
@@ -105,6 +106,7 @@ function App() {
                 <Route path="/geozoom" element={<GeometricZoom h={400} w={600} />} />
                 <Route path="/animated" element={<AnimatedCircles />} />
                 <Route path="/map" element={<WorldMap />} />
+                <Route path="/line" element={<SimpleLine />} />
             </Routes>
         </div>
     )

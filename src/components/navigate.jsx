@@ -17,6 +17,7 @@ export default function Navigate(props) {
             <Link to="/geozoom">GeoZoom</Link>
             <Link to="/animated">Circles</Link>
             <Link to="/map">Map</Link>
+            <Link to="/line">Line</Link>
         </nav>
     )
 }
