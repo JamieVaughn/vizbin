@@ -1,85 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web site created using create-snowpack-app" />
-    <title>Snowpack App</title>
-    <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <div id="tree_view"></div>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="dist/index.js"></script>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+import React, { useState, useEffect, useRef } from 'react'
+import * as d3 from 'd3'
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
-    <script>
-      // plot properties
-let root;
-let tree;
-let diagonal;
-let svg;
-let duration = 750;
-let treeMargin = { top: 0, right: 20, bottom: 20, left: 20 };
-let treeWidth = window.innerWidth - treeMargin.right - treeMargin.left;
-let treeHeight = window.innerHeight - treeMargin.top - treeMargin.bottom;
-let treeDepth = 5;
-let maxTextLength = 90;
-let nodeWidth = maxTextLength + 20;
-let nodeHeight = 36;
-let scale = 1;
-
-// tree data
 let data = [
-    {
-        "name": "Root",
-        "parent": "null",
-        "children": [
-            {
-                "name": "Level 2: A",
-                "parent": "Top Level",
-                "children": [
-                    {
-                        "name": "A1",
-                        "parent": "Level 2: A"
-                    },
-                    {
-                        "name": "A2",
-                        "parent": "Level 2: A"
-                    }
-                ]
-            },
-            {
-                "name": "Level 2: B",
-                "parent": "Top Level"
-            }
-        ]
-    }
+  {
+      "name": "Root",
+      "parent": "null",
+      "children": [
+          {
+              "name": "Level 2: A",
+              "parent": "Top Level",
+              "children": [
+                  {
+                      "name": "A1",
+                      "parent": "Level 2: A"
+                  },
+                  {
+                      "name": "A2",
+                      "parent": "Level 2: A"
+                  }
+              ]
+          },
+          {
+              "name": "Level 2: B",
+              "parent": "Top Level"
+          }
+      ]
+  }
 ];
 
-// additional links data array
-let additionalLinks = []
+export default function TreeDiagram (props) {
+  const tree = useRef(null)
+  const [additionalLinks, setAdditionalLinks] = useState([])
+  let root;
+  let diagonal;
+  let svg;
+  let duration = 750;
+  let treeMargin = { top: 0, right: 20, bottom: 20, left: 20 };
+  let treeWidth = window.innerWidth - treeMargin.right - treeMargin.left;
+  let treeHeight = window.innerHeight - treeMargin.top - treeMargin.bottom;
+  let treeDepth = 5;
+  let maxTextLength = 90;
+  let nodeWidth = maxTextLength + 20;
+  let nodeHeight = 36;
+  let scale = 1;
+
+  useEffect(() => {
+    if(tree.current) {
 
 
-/**
- * Initialize tree properties
- * @param {Object} treeData 
- */
 function initTree(treeData) {
     // init
-    tree = d3.layout.tree()
+    tree.current = d3.layout.tree()
         .size([treeWidth, treeHeight]);
     diagonal = d3.svg.diagonal()
         .projection(function (d) { return [d.x + nodeWidth / 2, d.y + nodeHeight / 2]; });
@@ -100,12 +72,12 @@ function initTree(treeData) {
         return d['name'] === 'A2';
     })[0];
 
-    let link = new Object();
+    let link = {};
     link.source = pairNode1;
     link.target = pairNode2;
     link._source = pairNode1; // backup source
     link._target = pairNode2; // backup target
-    additionalLinks.push(link)
+    setAdditionalLinks(prev => [...prev, link])
 
     // update
     updateTree(root);
@@ -117,11 +89,6 @@ function initTree(treeData) {
     });
 }
 
-
-/**
- * Perform tree update. Update nodes and links
- * @param {Object} source
- */
 function updateTree(source) {
     let i = 0;
     let nodes = tree.nodes(root).reverse();
@@ -231,10 +198,6 @@ function updateTree(source) {
     });
 }
 
-/**
- * Handle on tree node clicked actions
- * @param {Object} d node
- */
 function click(d) {
     // update regular links
     if (d.children) {
@@ -302,6 +265,13 @@ function resizeTreePlot() {
 // plot tree
 initTree(data);
 updateTree(root);
-    </script>
-  </body>
-</html>
+}
+
+  }, [])
+    return (
+        <div>
+            <h1>D3 Tree</h1>
+            <div ref={tree}></div>
+        </div>
+    )
+}

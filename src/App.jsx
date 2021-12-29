@@ -18,6 +18,7 @@ import GeometricZoom from './components/geometriczoom'
 import {AnimatedCircles} from './components/animatedcircles'
 import { WorldMap } from './components/worldmap'
 import SimpleLine from './components/simpleline'
+import TreeDiagram from './components/tree'
 
 import { nivoData } from '../public/data/nivo.js'
 import { quality } from '../public/data/quality.js'
@@ -107,6 +108,7 @@ function App() {
                 <Route path="/animated" element={<AnimatedCircles />} />
                 <Route path="/map" element={<WorldMap />} />
                 <Route path="/line" element={<SimpleLine />} />
+                <Route path="/tree" element={<TreeDiagram />} />
             </Routes>
         </div>
     )

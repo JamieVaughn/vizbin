@@ -18,6 +18,7 @@ export default function Navigate(props) {
             <Link to="/animated">Circles</Link>
             <Link to="/map">Map</Link>
             <Link to="/line">Line</Link>
+            {/* <Link to="/tree">Tree</Link> */}
         </nav>
     )
 }
