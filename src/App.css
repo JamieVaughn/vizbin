@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 175px 1fr;
 }
 .App code {
   background: #FFF3;
@@ -26,16 +28,21 @@
 .App-header {
   background-color: #282c34;
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 1rem;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .App-link {
   color: #61dafb;
 }
 nav {
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
 }
 nav a {
@@ -47,6 +54,9 @@ nav a {
 }
 nav a:visited {
   color: coral;
+}
+main {
+  padding: 1rem;
 }
 
 @keyframes App-logo-spin {
