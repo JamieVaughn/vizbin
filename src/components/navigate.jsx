@@ -5,6 +5,7 @@ export default function Navigate(props) {
     return (
         <nav>
             <Link to="/d3">D3</Link>
+            <Link to="/vegalite">Vegalite</Link>
             <Link to="/dashboard">Dashboard</Link>
             <Link to="/visx">VisX</Link>
             <Link to="/victory">Victory</Link>
@@ -19,7 +20,8 @@ export default function Navigate(props) {
             <Link to="/map">Map</Link>
             <Link to="/line">Line</Link>
             <Link to="/bar">Bar</Link>
-            {/* <Link to="/tree">Tree</Link> */}
+            <Link to="/tree">Tree</Link>
+            <Link to="/zoomaxis">ZoomAxis</Link>
         </nav>
     )
 }

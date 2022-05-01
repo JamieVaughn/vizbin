@@ -20,6 +20,8 @@ import { WorldMap } from './components/worldmap'
 import SimpleLine from './components/simpleline'
 import Simplebar from './components/simplebar'
 import TreeDiagram from './components/tree'
+import ZoomAxis from './components/d3examples/zoomAxis'
+import { VegaBar } from './components/vegabar'
 
 import { nivoData } from '../public/data/nivo.js'
 import { quality } from '../public/data/quality.js'
@@ -67,6 +69,7 @@ function App() {
             <main>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/vegalite" element={<VegaBar />} />
                 <Route
                     path="/d3"
                     element={
@@ -112,6 +115,7 @@ function App() {
                 <Route path="/line" element={<SimpleLine />} />
                 <Route path="/bar" element={<Simplebar />} />
                 <Route path="/tree" element={<TreeDiagram />} />
+                <Route path="/zoomaxis" element={<ZoomAxis />} />
             </Routes>
             </main>
         </div>
